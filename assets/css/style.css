@@ -19,9 +19,12 @@ body {
 }
 
 .card-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card-item {
+  border: 1px solid red;
 }
 
 .title__footer {
