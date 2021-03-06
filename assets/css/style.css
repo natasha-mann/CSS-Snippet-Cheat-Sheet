@@ -2,4 +2,18 @@ body {
   background-color: rgb(19, 19, 19);
   margin: 0px;
   height: 100vh;
+  /* remove this later */
+  color: white;
+}
+
+.header {
+}
+
+.main-title {
+}
+
+.info {
+}
+
+.info_title {
 }
