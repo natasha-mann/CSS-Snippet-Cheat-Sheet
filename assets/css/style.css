@@ -2,6 +2,7 @@ body {
   background-color: rgb(19, 19, 19);
   margin: 0px;
   height: 100vh;
+  line-height: 20px;
   /* remove this later */
   color: white;
 }
@@ -24,7 +25,13 @@ body {
 }
 
 .card-item {
-  border: 1px dotted white;
+  border: 2px dashed lightgray;
+  padding: 10px;
+  text-align: justify;
+}
+
+.info__card {
+  color: rgb(184, 53, 184);
 }
 
 .title__footer {
