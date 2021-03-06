@@ -24,7 +24,7 @@ body {
 }
 
 .card-item {
-  border: 1px solid red;
+  border: 1px dotted white;
 }
 
 .title__footer {
