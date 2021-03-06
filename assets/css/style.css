@@ -34,6 +34,7 @@ body {
   text-align: justify;
   position: relative;
   margin: 15px;
+  width: 25%;
 }
 
 .card-item h2 {
@@ -58,6 +59,7 @@ body {
 .code-container {
   padding: 10px;
   padding-bottom: 20px;
+  justify-content: center;
 }
 
 .code-snippet {
@@ -69,4 +71,16 @@ body {
 }
 
 .title__footer {
+}
+
+@media screen and (max-width: 992px) {
+  .card-item {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-item {
+    width: 100%;
+  }
 }
